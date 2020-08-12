@@ -1,0 +1,285 @@
+
+/* noto-sans-kr-100 - latin_korean */
+@font-face {
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:100;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-100.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Thin'), local('NotoSansKR-Thin'),
+        url('../fonts/noto-sans-kr-v12-latin_korean-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/noto-sans-kr-v12-latin_korean-100.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-100.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-100.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/noto-sans-kr-v12-latin_korean-100.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-kr-300 - latin_korean */
+@font-face {
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:300;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-300.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Light'), local('NotoSansKR-Light'),
+        url('../fonts/noto-sans-kr-v12-latin_korean-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/noto-sans-kr-v12-latin_korean-300.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-300.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-300.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/noto-sans-kr-v12-latin_korean-300.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-kr-regular - latin_korean */
+@font-face {
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:400;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
+        url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/noto-sans-kr-v12-latin_korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/noto-sans-kr-v12-latin_korean-regular.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-kr-500 - latin_korean */
+@font-face {
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:500;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-500.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
+        url('../fonts/noto-sans-kr-v12-latin_korean-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/noto-sans-kr-v12-latin_korean-500.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-500.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-500.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/noto-sans-kr-v12-latin_korean-500.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-kr-700 - latin_korean */
+@font-face {
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:700;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-700.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
+        url('../fonts/noto-sans-kr-v12-latin_korean-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/noto-sans-kr-v12-latin_korean-700.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-700.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-700.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/noto-sans-kr-v12-latin_korean-700.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+/* noto-sans-kr-900 - latin_korean */
+@font-face {
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:900;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-900.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Black'), local('NotoSansKR-Black'),
+        url('../fonts/noto-sans-kr-v12-latin_korean-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/noto-sans-kr-v12-latin_korean-900.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-900.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/noto-sans-kr-v12-latin_korean-900.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/noto-sans-kr-v12-latin_korean-900.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+}
+
+html {font-size:15px;}
+html, body, h1, h2, h3, h4, h5, h6, p, div, img {margin:0;padding:0;border:0;font-family:'Noto Sans KR', sans-serif;letter-spacing:-0.5px;font-weight:400;}
+body {overflow:auto;}
+h1,h2{font-weight:bold;}
+strong {font-weight:600;}
+table,tr,td,thead,tbody,tfoot{border-spacing:0;border-collapse:collapse;}
+ul, ol, li{list-style:none;padding:0;margin:0;}
+a{text-decoration:none;color:#323232;}
+a:hover{color:#c2c2c2;}
+button:focus{outline:none;}
+input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-serif;font-weight:400;}
+
+/* Header Area */
+.header {position:fixed;top:0;left:0;right:0;bottom:0;height:60px;background-color:#333333;z-index:90;}
+.header-wrap {position:relative;margin:0 auto;}
+.header-wrap:after {content:"";display:block;clear:both;}
+.header .nav-ctr {position:absolute;top:0;left:0;width:60px;height:60px;display:block;line-height:60px;text-align:center;font-size:0;}
+.header .nav-ctr img {vertical-align:middle;height:20px;}
+.header .nav-quote {position:absolute;top:0;right:0;width:60px;height:60px;display:block;line-height:60px;text-align:center;font-size:0;}
+.header .nav-quote img {height:30px;vertical-align:middle;}
+.header.fixed {background-color:#fff;}
+.header .logo {position:relative;padding-top:13px;text-align:center;}
+.header .logo a {display:inline-block;}
+.header .logo img {vertical-align:middle;height:36px;}
+.header.fixed .logo img {filter:invert(1);}
+
+
+.header .nav {position:fixed;top:0;right:0;left:0;margin:0;padding:50px 0;background-color:#000;display:none;z-index:10;}
+.header .nav.on {display:block;}
+.header .nav .close-nav {position:absolute;top:0;left:0;width:60px;height:60px;display:block;line-height:60px;text-align:center;font-size:0;}
+.header .nav .close-nav img {height:24px;vertical-align:middle;}
+.header .nav > ul > li {padding:0;}
+.header .nav > ul > li > a {position:relative;color:#fff;display:block;font-size:16px;font-weight:500;height:35px;line-height:35px;padding:0;box-sizing:border-box;text-align:center;}
+.header .nav > ul > li > a.active {color:#4c7fff;}
+.header .nav .nav-info {padding:10px 0 15px 0;text-align:center;}
+.header .nav .nav-info strong {font-size:20px;color:#4c7fff;font-weight:600;display:block;}
+.header .nav .nav-info span {display:block;font-size:11px;}
+
+/* Content Area */
+.content {padding-top:60px;}
+
+/* Main Image Area */
+.main-item {position:relative;text-align:center;}
+.main-item img {margin:0 auto;}
+.main-item {background-position:50% 0;background-repeat:no-repeat}
+.main-image-media {position:absolute;top:385px;left:50%;margin-left:-168px;}
+
+.main-image.owl-carousel .owl-dots {position:absolute;bottom:5px;left:50%;transform:translateX(-50%);}
+.main-image.owl-carousel .owl-dots button{margin:0;}
+.main-image.owl-carousel button.owl-dot {display:inline-block;background-color:#fff;width:10px;height:10px;border-radius:50%;margin:0 3px;}
+.main-image.owl-carousel button.owl-dot.active {background:#4c7fff}
+
+/* Hot Deals */
+.hotdeal-deals {width:100%;}
+.hotdeal-deals .guerrilla-wrap {position:relative;margin:0 auto;padding:0 0 30px 0;}
+.hotdeal-deals h2 {position:relative;margin:0 20px;padding:20px 0;font-size:26px;font-weight:600;text-align:center;background-color:#f4f4f4;}
+.hotdeal-deals h2 strong {font-weight:600;}
+.hotdeal-deals h2 span {display:inline-block;position:relative;color:#4c7fff;}
+.hotdeal-deals h2 small {position:relative;display:block;text-align:center;font-size:14px;font-weight:400;padding-top:15px;margin-top:15px;}
+.hotdeal-deals h2 small:before {content:"";position:absolute;top:0;left:50%;width:50px;height:2px;margin-left:-25px;background-color:#4c7fff;}
+.hotdeal-deals h2:after {content:"";position:absolute;left:50%;bottom:-10px;margin-left:-10px;display:block;width:20px;height:20px;background-color:#f4f4f4;transform:rotate(45deg);z-index:2;}
+.hotdeal-deals .hotdeal-list {display:block;padding:0 30px 30px 30px;box-sizing:border-box;}
+.hotdeal-deals .hotdeal-item {background-color:#fff;border-left:1px solid #eee;}
+.hotdeal-deals .hotdeal-item:first-child {border-left:0 none;}
+.hotdeal-deals .hotdeal-item .car-info {padding:20px 0 0 0;}
+.hotdeal-deals .hotdeal-item .car-info .car-name {text-align:center;font-size:22px;font-weight:400;color:#4873e2;}
+.hotdeal-deals .hotdeal-item .car-info .car-price {text-align:center;font-size:13px;font-weight:400;color:#333;}
+.hotdeal-deals .hotdeal-item .car-info .car-lease {text-align:center;font-size:14px;font-weight:400;color:#333;}
+.hotdeal-deals .hotdeal-item .car-info .car-lease strong {font-size:26px;font-weight:600;}
+.hotdeal-deals .hotdeal-item .car-info .car-lease strong:before {content:"￦";padding-right:3px;}
+.hotdeal-deals .hotdeal-item .car-info .car-lease span {text-decoration:line-through;}
+.hotdeal-deals .hotdeal-item .car-info .car-image {text-align:center;height:200px;line-height:200px;}
+.hotdeal-deals .hotdeal-item .car-info .car-image img {display:inline-block;max-width:100%;vertical-align:middle;}
+.hotdeal-deals .hotdeal-item .car-info .car-desc {text-align:center;padding:10px 0;font-weight:300;}
+
+.hotdeal-deals .hotdeal-item .btn-area {padding:10px 0 15px 0;}
+.hotdeal-deals .hotdeal-item .btn-area a {display:block;padding:10px;text-align:center;font-size:14px;font-weight:500;background-color:#333;color:#fff;cursor:pointer;}
+.hotdeal-deals .hotdeal-item .btn-area a span {display:inline-block;}
+.hotdeal-deals .hotdeal-item .btn-area a img {width:35px;height:11px;display:inline-block;}
+
+.hotdeal-list.owl-carousel .owl-nav {position:relative;text-align:center;}
+.hotdeal-list.owl-carousel .owl-nav button.owl-next {width:40px;height:40px;background:url(../img/hotdeal_arrow.png) 100% 50% no-repeat;font-size:0;overflow:hidden;text-indent:-300px;margin:0 5px;}
+.hotdeal-list.owl-carousel .owl-nav button.owl-prev {width:40px;height:40px;background:url(../img/hotdeal_arrow.png) 0 50% no-repeat;font-size:0;overflow:hidden;text-indent:-300px;margin:0 5px;}
+
+
+.quotation-area {background-color:#372bbc;padding:10px 0 15px 0;}
+.quotation-area h2 {text-align:center;color:#fff;font-size:24px;font-weight:500;padding:15px 0;}
+.quotation-area h2 strong {color:#f3f158;}
+.quick-quo-form {padding:0 15px;}
+.quick-quo-form li {position:relative;padding:5px;}
+.quick-quo-form li.has-label {padding-left:108px;}
+.quick-quo-form select {-webkit-appearance:none;appearance:none;width:100%;height:35px;line-height:33px;border:0 none;color:#333;font-size:14px;box-sizing:border-box;padding:0 20px;background:#fff url(../img/bottom_quotation_arrow.png) 100% 50% no-repeat;}
+.quick-quo-form select::-ms-expand {display:none;}
+.quick-quo-form select > option {color:#121212;}
+.quick-quo-form label {position:absolute;top:5px;left:5px;display:inline-block;width:103px;height:35px;line-height:35px;vertical-align:middle;background-color:#eeeeee;box-sizing:border-box;font-size:14px;padding-left:10px;}
+.quick-quo-form label + input[type="date"],
+.quick-quo-form label + select {display:inline-block;vertical-align:middle;}
+.quick-quo-form input[type="text"],
+.quick-quo-form input[type="date"] {width:100%;height:35px;line-height:33px;border:0 none;background-color:#fff;color:#333;font-size:14px;box-sizing:border-box;padding:0 20px;}
+.quick-quo-form li.agree-area label {position:relative;top:auto;left:auto;width:100%;background-color:#fff;}
+.quick-quo-form li.agree-area input[type="checkbox"] {vertical-align:middle;}
+.quick-quo-form li.agree-area span {display:inline-block;vertical-align:middle;}
+.quick-quo-form .quo-btn-area {padding:5px;text-align:center;}
+.quick-quo-form .quo-btn-area a {display:inline-block;padding:10px 50px;background-color:#333;color:#fff;font-size:14px;font-weight:500;}
+
+/* Fact Check */
+.fact-check {padding:0 0 20px 0;}
+.fact-check img {width:100%;}
+
+/* Counter */
+.count-area {background:url(../img/counter_bg.png) 0 0 no-repeat;background-size:cover;padding:30px 0;}
+.count-area ul {margin:0;padding:0;text-align:center;}
+.count-area li {display:inline-block;position:relative;margin:0 10px;width:140px;height:140px;box-sizing:border-box;text-align:center;border:1px solid #4c7fff;border-radius:50%;}
+.count-area li span {display:block;text-align:center;padding-top:20px;color:#fff;opacity:0.7;font-size:14px;font-weight:400;}
+.count-area li img {height:38px;margin-bottom:10px;}
+.count-area li .count-num {display:block;font-size:30px;line-height:45px;font-weight:600;letter-spacing:-1px;color:#fff;font-style:normal;}
+
+/* Lease Status */
+.lease-status {padding:0 0 20px 0;}
+.lease-status div > img {width:100%;}
+.lease-counter ul {margin:0;padding:0 0 20px 0;text-align:center;}
+.lease-counter li {position:relative;margin:0 10px;padding:0;display:inline-block;width:90px;height:90px;background-color:#f3f3f3;border-radius:50%;}
+.lease-counter li span {position:absolute;top:-10px;right:-10px;display:block;width:36px;height:36px;background-color:#f3f3f3;border:2px solid #fff;border-radius:50%;padding:3px;box-sizing:border-box;}
+.lease-counter li span img {width:100%;}
+.lease-counter li strong {display:block;font-size:12px;font-weight:500;letter-spacing:-1px;padding-top:25px;}
+.lease-counter li .count-num {display:block;font-size:23px;line-height:35px;font-weight:600;letter-spacing:-1px;color:#4c7fff;font-style:normal;}
+
+.lease-board-area {padding:0 20px;}
+
+.lease-board {background-color:#372bbc;padding:10px 15px 15px 15px;}
+.lease-board h2 img {height:20px;}
+.lease-board ul {width:100%;box-sizing:border-box;}
+.lease-board li {display:block;border-bottom:1px solid #6d64ce;font-size:13px;color:#fff;line-height:28px;font-weight:300;}
+.lease-board li:after {content:"";display:block;clear:both;}
+.lease-board li span {float:left;display:inline-block;box-sizing:border-box;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.lease-board li span:nth-child(1) {width:20%;}
+.lease-board li span:nth-child(2) {width:20%;}
+.lease-board li span:nth-child(3) {width:40%;}
+.lease-board li span:nth-child(4) {width:20%;text-align:right;}
+
+/* Youtube */
+.youtube-area {background:url(../img/youtube_bg.png) 0 0 no-repeat;background-size:cover;padding:20px 0;}
+.youtube-wrap {margin:0 auto;text-align:center;}
+.youtube-tt-area {padding-bottom:20px;position:relative;text-align:center;}
+.youtube-tt-area h2 {padding:0 0 10px 0;}
+.youtube-tt-area h2 img {width:100%;}
+.youtube-tt-area a {display:inline-block;border:1px solid #fff;color:#fff;padding:10px 30px;font-size:13px;}
+
+.youtube-ctn .tt-text {display:block;text-align:center;padding:10px 20px 0 20px;}
+.youtube-ctn .tt-text strong {display:block;font-size:15px;line-height:20px;font-weight:600;color:#fff;padding-bottom:5px;}
+.youtube-ctn .tt-text span {display:block;font-size:13px;line-height:17px;font-weight:400;color:#fff;}
+
+.auto-info {font-size:0;}
+.auto-info img {width:100%;}
+
+.award-area {padding:20px 0;}
+.award-area h2 img {width:100%;}
+.award-list {width:94%;margin:0 auto;}
+.award-list.owl-carousel .owl-nav {position:relative;text-align:center;padding-top:10px;}
+.award-list.owl-carousel .owl-nav button.owl-next {width:40px;height:40px;background:url(../img/hotdeal_arrow.png) 100% 50% no-repeat;font-size:0;overflow:hidden;text-indent:-300px;margin:0 5px;}
+.award-list.owl-carousel .owl-nav button.owl-prev {width:40px;height:40px;background:url(../img/hotdeal_arrow.png) 0 50% no-repeat;font-size:0;overflow:hidden;text-indent:-300px;margin:0 5px;}
+
+.tinting-area {background:url(../img/tinting_bg.png) 0 0 no-repeat;background-size:cover;padding:40px 0;}
+.tinting-area h2 img {width:100%;}
+.tinting-ctn {padding:30px 15px 0 15px;}
+
+.tinting-list.owl-carousel .owl-dots {position:relative;padding-top:10px;text-align:center;}
+.tinting-list.owl-carousel .owl-dots button{margin:0;}
+.tinting-list.owl-carousel button.owl-dot {display:inline-block;background-color:#fff;width:10px;height:10px;border-radius:50%;margin:0 3px;}
+.tinting-list.owl-carousel button.owl-dot.active {background:#4c7fff}
+
+.footer {padding:0 0 20px 0;background-color:#161412;color:#fff;font-size:14px;line-height:20px;}
+.footer .footer-menu {background-color:#4e4c4b;padding:0 5%;margin:0 0 20px 0;padding:0;box-sizing:border-box;text-align:center;}
+.footer .footer-menu li {display:inline-block;width:30%;text-align:center;padding:10px 0;}
+.footer .footer-menu li a {display:inline-block;font-size:14px;color:#fff;padding:3px 5px;}
+.footer p {font-size:12px;font-weight:400;padding:0 20px;text-align:center;}
+
+.popup-policy {position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;display:none;}
+.popup-policy.on {display:block;}
+.popup-policy .popup-box {background-color:#fff;position:absolute;top:0px;left:0;right:0;bottom:0px;overflow:auto;}
+.popup-policy .popup-box .popup-tt {position:absolute;top:0;left:0;right:0;border-radius:20px 20px 0 0;height:49px;border-bottom:1px solid #222;}
+.popup-policy .popup-box .popup-tt h2 {padding:11px 20px;font-size:18px;}
+.popup-policy .popup-box .popup-tt .popup-close {position:absolute;right:0;top:0;width:49px;height:49px;padding:0;background-color:transparent;border:0 none;cursor:pointer;}
+.popup-policy .popup-box .popup-tt .popup-close img {height:16px;}
+.popup-policy .popup-box .popup-ctn {position:absolute;top:50px;left:0;bottom:20px;right:0;overflow:auto;padding:0 20px;}
+
+.policy-box h3 {font-size:18px;padding:5px 0;}
+.policy-check {padding:10px 0;}
+.policy-check input[type="checkbox"] {width:20px;height:20px;vertical-align:middle;}
+.policy-check label {display:inline-block;vertical-align:middle;font-size:18px;padding-left:5px;cursor:pointer;}
+.policy-check.check-all {padding:10px 0;border-bottom:1px solid #bcbcbc;margin-bottom:15px;}
+.policy-check.check-all label {font-size:18px;}
+.policy-ctn {padding:10px;border:1px solid #bcbcbc;}
+.policy-ctn table {width:100%;border-collapse:collapse;}
+.policy-ctn th,
+.policy-ctn td {border:1px solid #bcbcbc;font-size:13px;padding:8px 10px;color:#555;}
+.policy-ctn th {background-color:#f2f2f2;font-weight:400;}
+.policy-ctn p {color:#e00000;padding-top:5px;font-size:13px;font-weight:300;}
+
+
+.popup-policy .popup-footer {clear:both;padding:20px 0;text-align:center;}
+.popup-policy .popup-footer .user-agree {font-size:14px;}
+.popup-policy .popup-footer .footer-btnarea {padding-top:15px;}
+.popup-policy .popup-footer .policy-submit {display:inline-block;padding:10px 100px;background-color:#e00000;color:#fff;border:0 none;border-bottom:4px solid #af0000;font-size:20px;cursor:pointer;}
+.popup-policy .popup-footer .policy-submit:hover {border-bottom-color:#e00000;}
